@@ -1,6 +1,7 @@
 #### Learning Go.
-With this repo, you can lean Go. <br>
-<code><a href="https://github.com/pacifiquem/Go/blob/main/src/basics">Basics</a> . <a href="https://github.com/pacifiquem/Go/blob/main/src/intermediate">webiste</a> . <a href="https://github.com/pacifiquem/Go/blob/main/src/advanced">email</a></code><br>
+With this repo, you can lean Go: 
+<code><a href="https://github.com/pacifiquem/Go/blob/main/src/basics">Basics</a> . <a href="https://github.com/pacifiquem/Go/blob/main/src/intermediate">Intermediate</a> . <a href="https://github.com/pacifiquem/Go/blob/main/src/advanced">Advanced</a></code>
+<br><br>
 
 ```Go
 

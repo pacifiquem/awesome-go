@@ -1,7 +1,7 @@
 ### Learning Go.
-With this repo, you can learn Go:
-<code><a href="https://github.com/pacifiquem/Go/blob/main/src/basics">Basics</a> . <a href="https://github.com/pacifiquem/Go/blob/main/src/intermediate">Intermediate</a> . <a href="https://github.com/pacifiquem/Go/blob/main/src/advanced">Advanced</a></code>
-<br><br>
+With this repo, you can learn Go:     <code><a href="https://github.com/pacifiquem/Go/blob/main/src/basics">Basics </a> .  <a href="https://github.com/pacifiquem/Go/blob/main/src/intermediate">Intermediate </a>  . <a href="https://github.com/pacifiquem/Go/blob/main/src/advanced">Advanced</a></code>
+<br>
+<br>
 
 ```Go
 
@@ -14,3 +14,10 @@ func main() {
 }
 
 ```
+
+<br>
+<br>
+
+<center>
+    <code><a href="https://github.com/pacifiquem/Go/blob/main/SECURITY.md">Security </a> . <a href="https://github.com/pacifiquem/Go/blob/main/CONTRIBUTING.md">Contributions </a> . <a href="https://github.com/pacifiquem/Go/issues">Issues
+</center>

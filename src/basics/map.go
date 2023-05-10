@@ -44,6 +44,8 @@ func main() {
 
 // Note that maps in Golang are created using the map keyword, followed by the type of the keys and values enclosed in square brackets (map[string]int in this case). To access a value in a map, you use the indexing syntax with the key (ages["Alice"] in this case). To add a new key-value pair to a map, you simply assign a value to a new key (ages["Charlie"] = 35 in this case). To check if a key is present in a map, you use the indexing syntax with a conditional statement (if age, ok := ages["Dave"]; ok {...} in this case). And to iterate over the keys and values in a map, you use a for loop with the range keyword (for name, age := range ages {...} in this case).
 
+// All keys must have the same type & all values must have the same time.
+
 
 
 

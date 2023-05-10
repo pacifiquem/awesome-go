@@ -1,0 +1,39 @@
+# Local folder
+/local
+
+# Visual Studio Code files
+.vscode/
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+vendor/
+bin/
+*.test/
+
+# Dependency directories (remove if you plan to commit your dependencies)
+vendor/
+go.sum
+
+# Go files
+*.exe
+*.test
+*.prof
+*.out
+*.test-output
+*.test-out
+
+# Ignore .DS_Store files on macOS
+.DS_Store
+
+# Ignore the Go binary file
+myproject
+
+# Ignore any log files
+*.log
+
+# Ignore any temporary files
+*.tmp

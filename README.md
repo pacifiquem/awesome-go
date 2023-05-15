@@ -19,5 +19,5 @@ func main() {
 <br>
 
 <center>
-    <code><a href="https://github.com/pacifiquem/Go/blob/main/SECURITY.md">Security </a> . <a href="https://github.com/pacifiquem/Go/blob/main/CONTRIBUTING.md">Contributions </a> . <a href="https://github.com/pacifiquem/Go/issues">Issues
+    <code><a href="https://github.com/pacifiquem/Go/blob/main/SECURITY.md">Security </a> . <a href="https://github.com/pacifiquem/Go/blob/main/CONTRIBUTING.md">Contributions </a> . <a href="https://github.com/pacifiquem/Go/issues">Issues</code>
 </center>

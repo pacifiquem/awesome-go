@@ -16,7 +16,6 @@ bin/
 
 # Dependency directories (remove if you plan to commit your dependencies)
 vendor/
-go.sum
 
 # Go files
 *.exe

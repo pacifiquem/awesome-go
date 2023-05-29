@@ -1,3 +1,3 @@
-module pacifiquem.engineer/guess-game
+module github.com/pacifiquem/guess-game
 
 go 1.20

@@ -1,0 +1,26 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go specific
+*.o
+*.a
+*.test
+*.prof
+*.out
+*.test
+_test
+
+# Ignore the vendor directory
+/vendor/
+
+# Ignore any generated files
+/bin/
+/pkg/
+
+# Ignore IDE-specific files and directories
+.idea/
+.vscode/

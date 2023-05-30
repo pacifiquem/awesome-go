@@ -10,7 +10,7 @@ import (
 
 func main() {
 
-	choice := ""
+	gameMode := ""
 	passed := false
 	chanceNumber := 10
 	reader := bufio.NewReader(os.Stdin)
@@ -18,23 +18,27 @@ func main() {
 	chooseGameMode:
 
 	fmt.Print("\nChoose Game Mode (numbers, words): ")
-	choice, _ = reader.ReadString('\n')
+	gameMode, _ = reader.ReadString('\n')
 
-	choice = strings.TrimSpace(choice) // Remove leading/trailing whitespace
+	gameMode = strings.TrimSpace(gameMode) // Remove leading/trailing whitespace
 
-	if choice == "numbers" {
+	if gameMode == "numbers" {
 
 		reGuess:
+
+		//check available chances and print rules if it's the first time.
+		utils.CheckChances(chanceNumber, gameMode)
 		passed = GuessingNumbers()
+		chanceNumber-- //reduce chance numbers after he plays
 
 		if passed {
-			fmt.Println("🎉🎉 Congratulations You won !!! 🎉🎉")
+			fmt.Println("\n🎉🎉 Congratulations You won !!! 🎉🎉\n")
 		}else {
-			fmt.Println(" You lost try again later ")
+			fmt.Println("😭 Wrong Guess, Try Again 😭")
 			goto reGuess
 		}
 
-	} else if choice == "words" {
+	} else if gameMode == "words" {
 
 		GuessingWords()
 

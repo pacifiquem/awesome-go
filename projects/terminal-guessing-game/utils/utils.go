@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"math/rand"
 	"time"
+	"os"
 )
 
 func PrintRules(guessingCase string) {
@@ -47,6 +48,26 @@ func GetRandomNumber() int {
 	
 }
 
-func checkChances() {
+func CheckChances(chances int, gameMode string) {
+
+	MAX_CHANCES := 10
+	MIN_CHANCES := 0 
 	
+	if chances == MAX_CHANCES && gameMode == "numbers" { 
+
+		PrintRules(gameMode)
+
+	} else if chances == MAX_CHANCES && gameMode == "words" {
+
+		PrintRules(gameMode)
+
+	}else {
+
+		if chances <= MIN_CHANCES {
+			fmt.Println("Out of chances, Try again later.")
+			os.Exit(1)
+		}
+
+	}
+
 }

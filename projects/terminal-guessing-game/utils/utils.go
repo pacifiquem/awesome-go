@@ -51,9 +51,9 @@ func GetRandomNumber() int {
 func CheckChances(chances int, gameMode string) {
 
 	MAX_CHANCES := 10
-	MIN_CHANCES := 0
+	MIN_CHANCES := 0 
 	
-	if chances == MAX_CHANCES && gameMode == "numbers" {
+	if chances == MAX_CHANCES && gameMode == "numbers" { 
 
 		PrintRules(gameMode)
 

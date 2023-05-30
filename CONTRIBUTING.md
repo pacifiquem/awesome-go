@@ -1,6 +1,6 @@
-# Contributing Guidelines for The Algorithms
+# Contributing Guidelines for The Go Sample Programms
 
-We welcome contributions to our repository of data structures and algorithms! Your contributions can help fellow developers learn more about different algorithms and data structures, and improve their coding skills.
+We welcome contributions to our repositor and Go Sample Programms! Your contributions can help fellow developers learn more about different Go Sample Programms, and improve their coding skills.
 
 ## Getting Started
 To contribute, follow these steps:
@@ -17,8 +17,8 @@ To contribute, follow these steps:
 ## What to Contribute
 We welcome contributions of different types, including:
 
-- New data structures or algorithms
-- Improvements to existing data structures or algorithms
+- or Go Sample Programms
+- Improvements to exis or Go Sample Programms
 - Bug fixes
 - Documentation improvements
 - Test cases

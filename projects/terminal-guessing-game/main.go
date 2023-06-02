@@ -24,7 +24,7 @@ func main() {
 
 	if gameMode == "numbers" {
 
-		reGuess:
+		reGuessNumbers:
 
 		//check available chances and print rules if it's the first time.
 		utils.CheckChances(chanceNumber, gameMode)
@@ -35,12 +35,24 @@ func main() {
 			fmt.Println("\n🎉🎉 Congratulations You won !!! 🎉🎉\n")
 		}else {
 			fmt.Println("😭 Wrong Guess, Try Again 😭")
-			goto reGuess
+			goto reGuessNumbers
 		}
 
 	} else if gameMode == "words" {
 
-		GuessingWords()
+		reGuessWords:
+
+		//check available chances and print rules if it's the first time.
+		utils.CheckChances(chanceNumber, gameMode)
+		passed = GuessingWords()
+		chanceNumber-- //reduce chance numbers after he plays
+
+		if passed {
+			fmt.Println("\n🎉🎉 Congratulations You won !!! 🎉🎉\n")
+		}else {
+			fmt.Println("😭 Wrong Guess, Try Again 😭")
+			goto reGuessWords
+		}
 
 	} else {
 

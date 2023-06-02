@@ -23,7 +23,8 @@ func PrintRules(guessingCase string) {
 		fmt.Println("1. You're going to guess words ")
 		fmt.Println("2. You have 10 chances to play")
 		fmt.Println("3. There is no time limit")
-		fmt.Println("4. You'll be receiving hints for words to guess\n")
+		fmt.Println("4. You'll not be receiving hints for words to guess\n")
+		fmt.Println("5. This is the most difficult mode.\n")
 
 	}else {
 		fmt.Println("\n Invalid game mode\n")

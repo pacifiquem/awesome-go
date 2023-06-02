@@ -6,13 +6,30 @@ import (
 	"bufio"
 	"fmt"
 	"strconv"
-	// "error"
-	// "github.com/tjarratt/babble"
+	"github.com/tjarratt/babble"
 )
 
 func GuessingWords() bool {
-	utils.PrintRules("words")
+	
+	babbler := babble.NewBabbler()
+	
+	babbler.Count = 1 // number of random word I want
+	wordToGuess := babbler.Babble()
+
+	scanner := bufio.NewScanner(os.Stdin)
+	fmt.Print("Enter your guess: ")
+
+	// Scan the next token (in this case, a number)
+	scanner.Scan()
+
+	// Retrieve the scanned text
+	input := scanner.Text()
+
+	return input == wordToGuess
+
+
 	return true
+
 }
 
 func GuessingNumbers() bool {

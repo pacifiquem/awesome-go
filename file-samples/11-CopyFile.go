@@ -9,7 +9,7 @@ import (
 func main() {
 
 	/*
-	   Copy a file
+	   Dosya Kopyalama (Copy a file)
 	*/
 
 	originalFile, err := os.Open("demo.txt")
@@ -18,20 +18,22 @@ func main() {
 	}
 	defer originalFile.Close()
 
+	// Yeni bir dosya oluştur
 	newFile, err := os.Create("demo_copy.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
 	defer newFile.Close()
 
+	// Byte'ları kaynaktan hedefe Kopyalama
 	bytesWritten, err := io.Copy(newFile, originalFile)
 	if err != nil {
 		log.Fatal(err)
 	}
 	log.Printf("Copied %d bytes.", bytesWritten)
 
-	// Process file content(commit)
-	// Free memory to disk(flush)
+	// Dosya içeriğini işle(commit)
+	// Belleği diske boşalt(flush)
 	err = newFile.Sync()
 	if err != nil {
 		log.Fatal(err)

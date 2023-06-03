@@ -5,13 +5,13 @@ import (
 	"os"
 )
 
-var (
-	newFile *os.File
-	err     error
-)
-
 func main() {
-	newFile, err = os.Create("demo.txt")
+
+	/*
+	   Dosya Silme (Delete a file)
+	*/
+
+	err := os.Remove("demo.txt")
 	if err != nil {
 		log.Fatal(err)
 	}

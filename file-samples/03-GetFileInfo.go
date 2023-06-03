@@ -12,11 +12,13 @@ var (
 )
 
 func main() {
+
 	/*
-	   Get File Info
+	   Dosya Bilgisi Almak (Get File Info)
 	*/
-	// Returns file information.
-	// Returns an error if the file doesn't exist.
+
+	// Dosya bilgisini döndürür.
+	// Eğer dosya yoksa hata döndürür.
 	fileInfo, err := os.Stat("demo.txt")
 	if err != nil {
 		log.Fatal(err)

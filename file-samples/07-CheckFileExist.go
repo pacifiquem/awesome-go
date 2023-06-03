@@ -13,8 +13,11 @@ var (
 func main() {
 
 	/*
-	   Check if File Exists
+	   Dosyanın var olup olmadığını kontrol etmek (Check if File Exists)
 	*/
+
+	// Dosya bilgisini döndürür.
+	// Eğer dosya yoksa hata döndürür.
 	fileInfo, err := os.Stat("demo.txt")
 	if err != nil {
 		if os.IsNotExist(err) {

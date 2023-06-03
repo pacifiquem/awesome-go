@@ -8,7 +8,7 @@ import (
 func main() {
 
 	/*
-	   Rename and Move a File
+	   Yeniden İsimlendirme ve Taşıma (Rename and Move a File)
 	*/
 
 	originalPath := "demo.txt"
@@ -18,5 +18,5 @@ func main() {
 		log.Fatal(err)
 	}
 
-	// Try to do the migration with Rename()
+	// Taşıma işlemini de Rename() ile yapmayı dene!
 }

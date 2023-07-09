@@ -1,5 +1,5 @@
 ### Go Sample Programms Center.
-With this repo, you can get many sample programs in Go.
+With this repo, you can get many sample written in programs in Go.
 
 ```Go
 

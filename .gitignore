@@ -24,6 +24,7 @@ vendor/
 *.out
 *.test-output
 *.test-out
+go.work
 
 # Ignore .DS_Store files on macOS
 .DS_Store

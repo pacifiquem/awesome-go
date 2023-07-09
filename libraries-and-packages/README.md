@@ -17,3 +17,5 @@
 
 - `log` : Provides a basic logging infrastructure for writing log messages to a specified output.
 These are just a few of the most commonly used standard libraries in Go, and there are many others available for more specific purposes.
+
+** With This Libraries, I'm sure that you can make some magic :lol: with Go**

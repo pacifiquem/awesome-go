@@ -4,6 +4,7 @@ import (
     "bufio"     // import the bufio package for reading user inputs
     "fmt"       // import the fmt package for printing to the console
     "strconv"   // import the strconv package for converting string inputs to other types
+    "os" // import os package to get it's Stdin property
 )
 
 func main() {

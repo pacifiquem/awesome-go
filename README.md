@@ -1,4 +1,4 @@
-### Go Sample Programms Center.
+## Go Sample Programms Center.
 With this repo, you can get many sample programs in Go.
 
 ```Go
@@ -8,7 +8,7 @@ package main
 import "fmt"
 
 func main() {
-    fmt.Println("If you enjoyed Star This Repository")
+    fmt.Println("Help us make this big by contributing to it also if you enjoyed Star This Repository");
 }
 
 ```

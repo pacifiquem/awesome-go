@@ -24,6 +24,8 @@ We welcome contributions of different types, including:
 - Test cases
 Before starting to work on a contribution, please check the existing issues and pull requests to avoid duplicating work that is already being done.
 
+[Check Open Issues Here](https://github.com/pacifiquem/Go/issues)
+
 ## Coding Guidelines
 To ensure consistency across the repository, we have the following coding guidelines:
 

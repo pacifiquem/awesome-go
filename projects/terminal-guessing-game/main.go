@@ -1,11 +1,12 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
 	"os"
-	"bufio"
 	"strings"
-	"github.com/pacifiquem/Go/utils"
+
+	"github.com/pacifiquem/go/utils"
 )
 
 func main() {
@@ -15,7 +16,7 @@ func main() {
 	chanceNumber := 10
 	reader := bufio.NewReader(os.Stdin)
 
-	chooseGameMode:
+chooseGameMode:
 
 	fmt.Print("\nChoose Game Mode (numbers, words): ")
 	gameMode, _ = reader.ReadString('\n')
@@ -24,7 +25,7 @@ func main() {
 
 	if gameMode == "numbers" {
 
-		reGuessNumbers:
+	reGuessNumbers:
 
 		//check available chances and print rules if it's the first time.
 		utils.CheckChances(chanceNumber, gameMode)
@@ -33,14 +34,14 @@ func main() {
 
 		if passed {
 			fmt.Println("\n🎉🎉 Congratulations You won !!! 🎉🎉\n")
-		}else {
+		} else {
 			fmt.Println("😭 Wrong Guess, Try Again 😭")
 			goto reGuessNumbers
 		}
 
 	} else if gameMode == "words" {
 
-		reGuessWords:
+	reGuessWords:
 
 		//check available chances and print rules if it's the first time.
 		utils.CheckChances(chanceNumber, gameMode)
@@ -49,14 +50,14 @@ func main() {
 
 		if passed {
 			fmt.Println("\n🎉🎉 Congratulations You won !!! 🎉🎉\n")
-		}else {
+		} else {
 			fmt.Println("😭 Wrong Guess, Try Again 😭")
 			goto reGuessWords
 		}
 
 	} else {
 
-		fmt.Println("Please enter a valid Game mode");
+		fmt.Println("Please enter a valid Game mode")
 		goto chooseGameMode
 
 	}

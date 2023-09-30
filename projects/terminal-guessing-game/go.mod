@@ -1,4 +1,4 @@
-module github.com/pacifiquem/Go
+module github.com/pacifiquem/go
 
 go 1.20
 

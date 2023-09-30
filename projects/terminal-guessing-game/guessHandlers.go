@@ -1,18 +1,19 @@
 package main
 
 import (
-	"github.com/pacifiquem/Go/utils"
-	"os"
 	"bufio"
 	"fmt"
+	"os"
 	"strconv"
+
+	"github.com/pacifiquem/go/utils"
 	"github.com/tjarratt/babble"
 )
 
 func GuessingWords() bool {
-	
+
 	babbler := babble.NewBabbler()
-	
+
 	babbler.Count = 1 // number of random word I want
 	wordToGuess := babbler.Babble()
 
@@ -26,7 +27,6 @@ func GuessingWords() bool {
 	input := scanner.Text()
 
 	return input == wordToGuess
-
 
 	return true
 
@@ -46,7 +46,7 @@ func GuessingNumbers() bool {
 
 	// Retrieve the scanned text
 	input := scanner.Text()
-	
+
 	//convert input string to an integer
 	guess, _ := strconv.Atoi(input)
 

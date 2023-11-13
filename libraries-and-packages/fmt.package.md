@@ -68,3 +68,6 @@ fmt.Println("Hello,", name)
 
 ```
 
+### References
+
+For more info visit: https://pkg.go.dev/fmt

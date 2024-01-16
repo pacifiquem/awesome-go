@@ -2,10 +2,8 @@
 
 > A curated list of awesome Go frameworks, libraries, and software. Inspired by [awesome-go](https://github.com/avelino/awesome-go) by [@avelino](https://github.com/avelino) but comes with implementation of algorithms + utility programs in ```/impl``` sub-directory.
 
-**Support Original Repo:**
-
-If you found information in this file useful please consider supporting the original repo by [@avelino](https://github.com/avelino).
-You can sponsor him [here](https://github.com/sponsors/avelino).
+> [!Important]
+>If you found information in this file useful please consider supporting the original repo by [@avelino](https://github.com/avelino).You can sponsor him [here](https://github.com/sponsors/avelino).
 
 **Contributing:**
 

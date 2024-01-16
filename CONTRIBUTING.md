@@ -1,7 +1,3 @@
-# Contributing Guidelines for The Go Sample Programms
-
-We welcome contributions to our repositor and Go Sample Programms! Your contributions can help fellow developers learn more about different Go Sample Programms, and improve their coding skills.
-
 ## Getting Started
 To contribute, follow these steps:
 
@@ -17,14 +13,15 @@ To contribute, follow these steps:
 ## What to Contribute
 We welcome contributions of different types, including:
 
-- or Go Sample Programms
-- Improvements to exis or Go Sample Programms
+- or Go Awesome
+- Improvements to exis or Go Awesome
 - Bug fixes
 - Documentation improvements
 - Test cases
+- New Links
 Before starting to work on a contribution, please check the existing issues and pull requests to avoid duplicating work that is already being done.
 
-[Check Open Issues Here](https://github.com/pacifiquem/Go/issues)
+[Check Open Issues Here](https://github.com/pacifiquem/awesome-go/issues)
 
 ## Coding Guidelines
 To ensure consistency across the repository, we have the following coding guidelines:

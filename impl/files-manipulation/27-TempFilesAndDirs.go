@@ -14,7 +14,7 @@ func main() {
 	*/
 
 	// Create a temp dir in the system default temp folder
-	tempDirPath, err := ioutil.TempDir("", "myTempDir")
+	tempDirPath, err := os.MkdirTemp("", "myTempDir")
 	if err != nil {
 		log.Fatal(err)
 	}

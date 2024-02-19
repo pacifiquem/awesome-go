@@ -1,7 +1,7 @@
 package main
 
 import (
-	"io/ioutil"
+	"io"
 	"log"
 )
 
@@ -12,7 +12,7 @@ func main() {
 	*/
 
 	// Dosyadan byte dilimine okuma yapma
-	data, err := ioutil.ReadFile("demo.txt")
+	data, err := io.ReadFile("demo.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
